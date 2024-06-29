@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:#f2f2f2;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  flex-direction:column;
+}
+
+h1 {
+  text-align:center;
+  margin-top:20px;
+  background-color:blueviolet;
+  color:white;
+  padding:1.5rem;
+  border-radius:10px;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#guess-input {
+  display:block;
+  margin:20px auto;
+  padding:10px;
+  font-size:18px;
+  width:250px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align:center;
+}
+
+#guess-button {
+  display:block;
+  margin:0 auto;
+  padding:10px 20px;
+  font-size:18px;
+  background-color:#0CBABA;
+  color:#fff;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  transition:background-color 0.3s, transform 0.3s;
+}
+
+#guess-button:hover {
+  background-color: #0B9A9A;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.letter {
+  border:1px solid black;
+  padding:10px;
+  margin:3px;
+  min-width:40px;
+  font-size:24px;
+  text-align:center;
+  display:inline-block;
+  border-radius:5px;
+  transition:background-color 0.3s;
+}
+
+.row {
+  margin-bottom:10px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  gap:10px;
+}
+
+.input-area {
+  margin:30px;
+}
+
+#grid {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top:20px;
+}
+
+#guesses {
+  text-align:center;
+  margin-top:20px;
+  font-size:24px;
+}
