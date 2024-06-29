@@ -65,7 +65,7 @@ function intentar(){
 }
 function terminar(mensaje){
     const INPUT = document.getElementById("guess-input");
-  //  INPUT.disabled = true;
+  // / INPUT.disabled = true;
    // BOTON.disabled = true;
     let contenedor = document.getElementById('guesses');
     contenedor.innerHTML = mensaje;
